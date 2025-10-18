@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #0C4A6E;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: #EEEEEE;
+}
+
+.increments{
+
+}
+
+button{
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    padding: 6px;
+    margin: 20px 5px;
+    color: #9AABD8;
+    background-color: #0C4A6E;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
